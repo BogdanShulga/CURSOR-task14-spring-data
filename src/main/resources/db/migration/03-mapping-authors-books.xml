@@ -7,8 +7,8 @@
          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
 
     <changeSet id="3" author="bogdan_shulga">
-        <addForeignKeyConstraint baseTableName="books" baseColumnNames="author_author_id"
+        <addForeignKeyConstraint baseTableName="books" baseColumnNames="author_id"
                                  constraintName="author_fk"
-                                 referencedTableName="authors" referencedColumnNames="author_id"/>
+                                 referencedTableName="authors" referencedColumnNames="id"/>
     </changeSet>
 </databaseChangeLog>

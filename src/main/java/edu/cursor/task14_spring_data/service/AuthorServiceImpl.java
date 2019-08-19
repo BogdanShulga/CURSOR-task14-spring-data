@@ -28,8 +28,8 @@ public class AuthorServiceImpl implements AuthorService {
 
     @Override
     public void updateAuthor(Author oldAuthor, Author newAuthor) {
-        if (authorRepo.existsById(oldAuthor.getAuthorID())) {
-            this.deleteAuthor(oldAuthor.getAuthorID());
+        if (authorRepo.existsById(oldAuthor.getId())) {
+            this.deleteAuthor(oldAuthor.getId());
             this.saveAuthor(newAuthor);
         } else {
             this.saveAuthor(newAuthor);

@@ -29,8 +29,8 @@ public class BookServiceImpl implements BookService {
 
     @Override
     public void updateBook(Book oldBook, Book newBook) {
-        if (bookRepo.existsById(oldBook.getBookID())) {
-            this.deleteBook(oldBook.getBookID());
+        if (bookRepo.existsById(oldBook.getId())) {
+            this.deleteBook(oldBook.getId());
             this.saveBook(newBook);
         } else {
             this.saveBook(newBook);

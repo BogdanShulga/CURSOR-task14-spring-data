@@ -14,8 +14,7 @@ import javax.persistence.*;
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "book_id")
-    private Long bookID;
+    private Long id;
     @Column(nullable = false)
     private String title;
     @Column(nullable = false)
