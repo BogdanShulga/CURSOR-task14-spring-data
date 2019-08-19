@@ -29,16 +29,17 @@ public class InitTables {
     public void setBookService(BookService bookService) {
         this.bookService = bookService;
     }
+
     public void initiateH2tables() {
         List<Author> authors = authorsBooks.getAuthors();
 
-        for (Author author: authors) {
+        for (Author author : authors) {
             authorService.saveAuthor(author);
         }
 
         List<Book> books = authorsBooks.getBooks();
 
-        for (Book book: books) {
+        for (Book book : books) {
             bookService.saveBook(book);
         }
     }

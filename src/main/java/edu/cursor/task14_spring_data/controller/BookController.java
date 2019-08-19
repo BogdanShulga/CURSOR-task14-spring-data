@@ -17,17 +17,17 @@ public class BookController {
     }
 
     @GetMapping("/find_book/{bookID}")
-    public Book findAuthor(@PathVariable("bookID") Long authorID){
+    public Book findAuthor(@PathVariable("bookID") Long authorID) {
         return bookService.findBook(authorID);
     }
 
     @DeleteMapping("/delete_book/{bookID}")
-    public void deleteAuthor(@PathVariable("bookID") Long authorID){
+    public void deleteAuthor(@PathVariable("bookID") Long authorID) {
         bookService.deleteBook(authorID);
     }
 
     @PutMapping("/update_book")
-    public void updateAuthor(@RequestBody TwoBooks twoBooks){
+    public void updateAuthor(@RequestBody TwoBooks twoBooks) {
         bookService.updateBook(twoBooks.getOldBook(), twoBooks.getNewBook());
     }
 }

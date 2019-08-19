@@ -8,35 +8,47 @@
 
     <changeSet id="5" author="bogdan_shulga">
         <insert tableName="books">
-            <column name="description">A short fictional story of two friends held in the claws of a ravaging earthquake.</column>
+            <column name="description">A short fictional story of two friends held in the claws of a ravaging
+                earthquake.
+            </column>
             <column name="genre">Short Story</column>
             <column name="rate">8</column>
             <column name="title">Friends Forever</column>
             <column name="author_id">1</column>
         </insert>
         <insert tableName="books">
-            <column name="description">A Japanese financier seeks revenge on the United States for the death of his parents during World War II, devising a scheme which threatens to plunge the world into another world war.</column>
+            <column name="description">A Japanese financier seeks revenge on the United States for the death of his
+                parents during World War II, devising a scheme which threatens to plunge the world into another world
+                war.
+            </column>
             <column name="genre">Thriller</column>
             <column name="rate">6</column>
             <column name="title">Debt of honor</column>
             <column name="author_id">2</column>
         </insert>
         <insert tableName="books">
-            <column name="description">Wolves of the Calla continues the adventures of Roland, the Last Gunslinger and survivor of a civilized world that has moved on.</column>
+            <column name="description">Wolves of the Calla continues the adventures of Roland, the Last Gunslinger and
+                survivor of a civilized world that has moved on.
+            </column>
             <column name="genre">Thriller</column>
             <column name="rate">5</column>
             <column name="title">Wolves of the Calla</column>
             <column name="author_id">3</column>
         </insert>
         <insert tableName="books">
-            <column name="description">Don Quijote de la Mancha es una novela escrita por el español Miguel de Cervantes Saavedra.</column>
+            <column name="description">Don Quijote de la Mancha es una novela escrita por el español Miguel de Cervantes
+                Saavedra.
+            </column>
             <column name="genre">History</column>
             <column name="rate">8</column>
             <column name="title">El ingenioso hidalgo Don Quijote de la Mancha</column>
             <column name="author_id">4</column>
         </insert>
         <insert tableName="books">
-            <column name="description">A fascinating, innovative, and optimistic look at how humanity and technology join to produce increasing opportunities in the world and how technology can give our lives greater meaning	</column>
+            <column name="description">A fascinating, innovative, and optimistic look at how humanity and technology
+                join to produce increasing opportunities in the world and how technology can give our lives greater
+                meaning
+            </column>
             <column name="genre">Technology</column>
             <column name="rate">9</column>
             <column name="title">What technology wants</column>
@@ -50,7 +62,11 @@
             <column name="author_id">6</column>
         </insert>
         <insert tableName="books">
-            <column name="description">On May 2, 1973, Black Panther Assata Shakur (aka JoAnne Chesimard) lay in a hospital, close to death, handcuffed to her bed, while local, state, and federal police attempted to question her about the shootout on the New Jersey Turnpike that had claimed the life of a white state trooper.</column>
+            <column name="description">On May 2, 1973, Black Panther Assata Shakur (aka JoAnne Chesimard) lay in a
+                hospital, close to death, handcuffed to her bed, while local, state, and federal police attempted to
+                question her about the shootout on the New Jersey Turnpike that had claimed the life of a white state
+                trooper.
+            </column>
             <column name="genre">Autobiography</column>
             <column name="rate">10</column>
             <column name="title">Assata</column>
@@ -64,14 +80,19 @@
             <column name="author_id">8</column>
         </insert>
         <insert tableName="books">
-            <column name="description">I may be 49 years old, but Roald Dahl is definitely at the top of the list of my favourite authors. His books are different from the movies, be prepared for an even better experience.</column>
+            <column name="description">I may be 49 years old, but Roald Dahl is definitely at the top of the list of my
+                favourite authors. His books are different from the movies, be prepared for an even better experience.
+            </column>
             <column name="genre">Fiction</column>
             <column name="rate">6</column>
             <column name="title">The witches</column>
             <column name="author_id">9</column>
         </insert>
         <insert tableName="books">
-            <column name="description">Although now best known for his childrens books, Roald Dahl of course wrote many short stories, often with a darkly humorous twist at the end. Herewith dramatisations of five such darkly humorous tales.....</column>
+            <column name="description">Although now best known for his childrens books, Roald Dahl of course wrote many
+                short stories, often with a darkly humorous twist at the end. Herewith dramatisations of five such
+                darkly humorous tales.....
+            </column>
             <column name="genre">Drama</column>
             <column name="rate">4</column>
             <column name="title">Served With A Twist</column>
