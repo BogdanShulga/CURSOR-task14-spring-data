@@ -1,7 +1,8 @@
-package edu.cursor.task14_spring_data.service;
+package edu.cursor.task14_spring_data.service.impl;
 
 import edu.cursor.task14_spring_data.models.Author;
 import edu.cursor.task14_spring_data.repository.AuthorRepo;
+import edu.cursor.task14_spring_data.service.AuthorService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

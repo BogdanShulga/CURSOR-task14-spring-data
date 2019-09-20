@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class InitTablesController {
     private InitTables initTables;
 
-    @GetMapping("/init_tables")
+    @GetMapping("/init")
     public void initTables() {
         initTables.initiateH2tables();
     }
